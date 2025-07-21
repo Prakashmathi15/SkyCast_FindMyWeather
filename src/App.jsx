@@ -5,7 +5,8 @@ import './App.css';
 
 function App() {
   return (
-    <BrowserRouter>
+   <BrowserRouter basename="/SkyCast_FindMyWeather/">
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/weather" element={<Weather />} />
